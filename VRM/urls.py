@@ -19,5 +19,5 @@ from API import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.GetDataView, name='GetDataView')
+    path('', views.GetDroplets, name='GetDroplets')
 ]
